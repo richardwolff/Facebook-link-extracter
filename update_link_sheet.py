@@ -3,23 +3,24 @@ from fbchat import Client
 from fbchat.models import *
 import pandas as pd
 from pandas.util.testing import assert_frame_equal
+import fb_link_settings as settings
 
 ## Facebook login: Client(username, password)
-client = Client( , )
+client = Client(settings.FACEBOOK_USERNAME, settings.FACEBOOK_PASSWORD)
 
 ## insert path to local gsheetpermit json
-localpath=' ' 
+localpath = settings.LOCAL_PATH 
 
 namedict={}
 
 ## insert names of people in group 
-names = []
+names = settings.NAMES
 
 for name in names:
   namedict[client.searchForUsers(name)[0].uid] = name
 
 ## insert thread_id here
-messages=client.fetchThreadMessages(thread_id=' ')
+messages=client.fetchThreadMessages(thread_id=settings.THREAD_ID)
 
 lines=[]
 cols=['Name','Title','Link','Source']
@@ -42,10 +43,10 @@ for message in messages:
 c=pygsheets.authorize(service_file=localpath)
 
 ## insert name of gsheet to write to
-sh=c.open(' ')
+sh=c.open(settings.SHEETNAME)
 
 ## insert email associated with gsheets
-sh.share(" ",role='writer')
+sh.share(settings.EMAIL,role='writer')
 
 wks=sh[0]
 df2=wks.get_as_df()
