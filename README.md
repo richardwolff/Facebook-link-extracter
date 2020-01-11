@@ -15,7 +15,7 @@ rickywolff@gmail.com
 
 `pip install pygsheets`
 
-To use pygsheets, obtain OAuth2 credentials from Google Developers Console for google spreadsheet api and drive api and save the file as client_secret.json in same directory as project. [read more here](https://pygsheets.readthedocs.io/en/latest/authorization.html).
+* To use pygsheets, obtain OAuth2 credentials from Google Developers Console for google spreadsheet api and drive api and save the file as client_secret.json in same directory as project. [read more here](https://pygsheets.readthedocs.io/en/latest/authorization.html).
 
 ## Basic usage
 
