@@ -3,8 +3,6 @@ from fbchat import Client
 from fbchat.models import *
 import pandas as pd
 from pandas.util.testing import assert_frame_equal
-import numpy as np
-import time
 
 ## Facebook login: Client(username, password)
 client = Client( , )
