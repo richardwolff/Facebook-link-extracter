@@ -23,4 +23,4 @@ Running this program requires installing two Python libraries:
 0. Install dependencies and obtain OAuth2 credentials.
 1. Open fb_links_settings.py and set variables as directed.
 2. Run create_link_sheet.py to scrape your chat for all previously posted links. (E.g.: `python3 /Users/richardwolff/create_link_sheet.py`).
-3. Schedule update_link_sheet.py to run as a cron job, keeping your sheet updated. (E.g. add `0 */6 * * * python3 /Users/richardwolff/update_link_sheet.py` to cron using `crontab -e`).
+3. Schedule update_link_sheet.py to run as a cron job, keeping your sheet updated. (E.g. add `0 */6 * * * python3 /Users/richardwolff/update_link_sheet.py` to cron using `crontab -e` to update every six hours).
