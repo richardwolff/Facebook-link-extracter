@@ -8,9 +8,9 @@ rickywolff@gmail.com
 ## Dependencies
 
 1. [fbchat](https://github.com/carpedm20/fbchat): python module for interfacing with Facebook messenger
-'pip install fbchat'
+`pip install fbchat`
 2. [pygsheets](https://github.com/nithinmurali/pygsheets): python module for interfacing with Google sheets
-'pip install pygsheets'
+`pip install pygsheets`
 
 ## Basic usage
 
