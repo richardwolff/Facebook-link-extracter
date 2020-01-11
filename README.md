@@ -7,7 +7,7 @@ rickywolff@gmail.com
 
 ## Dependencies
 
-This program requires two Python libraries 
+Running this program requires installing two Python libraries: 
 
 1. [fbchat](https://github.com/carpedm20/fbchat): Python module for interfacing with Facebook messenger
 
