@@ -15,7 +15,7 @@ names = settings.NAMES
 for name in names:
   namedict[client.searchForUsers(name)[0].uid] = name
 
-## insert thread_id here. Fetches last 10000 messages — adjust as necessary
+## insert thread_id here. Fetches last 1000 messages — adjust as necessary
 messages=client.fetchThreadMessages(thread_id=settings.THREAD_ID,limit=1000)
 
 lines=[]
