@@ -5,6 +5,13 @@ This program extracts links from a Facebook chat and writes them to a Google she
 
 rickywolff@gmail.com
 
+## Dependencies
+
+1. [fbchat](https://github.com/carpedm20/fbchat): python module for interfacing with Facebook messenger
+'pip install fbchat'
+2. [pygsheets](https://github.com/nithinmurali/pygsheets): python module for interfacing with Google sheets
+'pip install pygsheets'
+
 ## Basic usage
 
 1. Run create_link_sheet.py to scrape your chat for all previously posted links. 
