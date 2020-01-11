@@ -9,13 +9,9 @@ rickywolff@gmail.com
 
 Running this program requires installing two Python libraries: 
 
-1. [fbchat](https://github.com/carpedm20/fbchat): Python module for interfacing with Facebook messenger
+1. [fbchat](https://github.com/carpedm20/fbchat): Python module for interfacing with Facebook messenger. `pip install fbchat`.
 
-`pip install fbchat`
-
-2. [pygsheets](https://github.com/nithinmurali/pygsheets): Python module for interfacing with Google sheets
-
-`pip install pygsheets`
+2. [pygsheets](https://github.com/nithinmurali/pygsheets): Python module for interfacing with Google sheets. `pip install pygsheets`.
 
 * To use pygsheets, obtain OAuth2 credentials from Google Developers Console for google spreadsheet api and drive api and save the file as client_secret.json in same directory as project. [read more here](https://pygsheets.readthedocs.io/en/latest/authorization.html).
 
