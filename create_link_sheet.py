@@ -44,4 +44,5 @@ sh=c.create(settings.SHEETNAME)
 ## insert email associated with gsheets
 sh.share(settings.EMAIL,role='writer')
 
+wks=sh[0]
 wks.set_dataframe(df1,(1,1))
