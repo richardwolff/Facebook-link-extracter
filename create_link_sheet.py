@@ -2,6 +2,7 @@ from fbchat import Client
 from fbchat.models import *
 import pandas as pd
 import pygsheets
+import fb_link_settings
 
 ## Facebook login: Client(username, password)
 client = Client( , )
