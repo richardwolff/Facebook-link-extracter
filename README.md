@@ -20,4 +20,4 @@ rickywolff@gmail.com
 ## Basic usage
 
 1. Run create_link_sheet.py to scrape your chat for all previously posted links. 
-2. Schedule update_link_sheet.py to run as a cron job, keeping your sheet updated. (E.g.: `0 */6 * * * python3 /Users/richardwolff/update_link_sheet.py')
+2. Schedule update_link_sheet.py to run as a cron job, keeping your sheet updated. (E.g.: `0 */6 * * * python3 /Users/richardwolff/update_link_sheet.py`)
