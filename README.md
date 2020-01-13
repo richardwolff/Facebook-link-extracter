@@ -1,9 +1,10 @@
-Facebook-link-extracter Version 1.0 1/10/2020
+## Basic
 
+Facebook-link-extracter Version 1.0 1/10/2020
 
 This Python program extracts links from a Facebook chat and writes them to a Google sheet. 
 
-rickywolff@gmail.com
+Contact: rickywolff@gmail.com
 
 ## Dependencies
 
